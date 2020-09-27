@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() , MainView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+//for git
         val listener = View.OnClickListener {
             var mainId = 0
             when (it.id) {
